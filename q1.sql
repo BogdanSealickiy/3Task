@@ -1,0 +1,4 @@
+SELECT rating, COUNT(*)
+FROM film
+GROUP BY film_id
+ORDER BY COUNT(*) DESC
